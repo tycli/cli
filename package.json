@@ -1,0 +1,26 @@
+{
+  "name": "ty_mobile_cli",
+  "version": "1.0.0",
+  "description": "统一手机端脚手架",
+  "main": "index.js",
+  "bin": {
+    "ty": "./bin/index.js"
+  },
+  "keywords": [
+    "mobile",
+    "cli"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dsy",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.7.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.12"
+  }
+}
